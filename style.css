@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* CV CONTAINER */
+
+.cv-container {
+    width: 850px;
+    max-width: 92%;
+    margin: 40px auto;
+    background-color: white;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* HEADER */
+
+.header {
+    background-color: #234f70;
+    color: white;
+
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+/* PROFILE PHOTO */
+
+.profile-picture {
+    width: 110px;
+    height: 110px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    flex-shrink: 0;
+
+    background-color: white;
+    border: 4px solid white;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* PROFILE INFORMATION */
+
+.profile-info h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.profile-info h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    padding: 35px 45px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    color: #234f70;
+
+    font-size: 18px;
+
+    border-bottom: 2px solid #234f70;
+
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 15px;
+}
+
+
+/* EDUCATION */
+
+.education-item {
+    margin-bottom: 20px;
+    padding-left: 15px;
+
+    border-left: 3px solid #234f70;
+}
+
+.education-item h4 {
+    font-size: 17px;
+    color: #333;
+}
+
+.education-item p {
+    margin: 3px 0;
+}
+
+.education-item span {
+    font-size: 13px;
+    color: #777;
+}
+
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background-color: #234f70;
+    color: white;
+
+    padding: 8px 16px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+}
+
+
+/* HOBBIES & INTERESTS */
+
+.hobbies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.hobby {
+    background-color: #f4f6f8;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.hobby-icon {
+    font-size: 25px;
+}
+
+.hobby p {
+    font-size: 14px;
+}
+
+
+/* CONTACT */
+
+.contact p {
+    margin-bottom: 7px;
+}
+
+.contact strong {
+    color: #234f70;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #f4f6f8;
+
+    text-align: center;
+
+    padding: 18px;
+
+    color: #777;
+
+    font-size: 13px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+
+    .cv-container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .header {
+        padding: 30px 20px;
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info h1 {
+        font-size: 25px;
+    }
+
+    main {
+        padding: 25px 20px;
+    }
+
+    .hobbies {
+        grid-template-columns: 1fr;
+    }
+}
