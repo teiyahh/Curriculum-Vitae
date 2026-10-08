@@ -1,5 +1,5 @@
 README.md
-# Personal CV Web Page
+# Althea's CV Porfolio
 
 ## Student Information
 
