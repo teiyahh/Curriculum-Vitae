@@ -1,6 +1,6 @@
 README.md
 <<<<<<< HEAD
-# Althea's CV Porfolio
+# Althea's CV Profile -VErsion Two 
 
 # Curriculum Vitae-Personal Profile
 >>>>>>> feature/cv-purpose
