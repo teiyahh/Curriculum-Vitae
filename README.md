@@ -1,5 +1,5 @@
 README.md
-# Personal CV Web Page
+# Curriculum Vitae-Personal Profile
 
 ## Student Information
 
