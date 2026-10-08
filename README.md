@@ -1,9 +1,13 @@
 README.md
-<<<<<<< HEAD
+ HEAD
+ HEAD
 # Althea's CV Porfolio - Version one
 
+# Althea's CV Profile -VErsion Two 
+ vscode-conflict-two
+
 # Curriculum Vitae-Personal Profile
->>>>>>> feature/cv-purpose
+ feature/cv-purpose
 
 ## Student Information
 
