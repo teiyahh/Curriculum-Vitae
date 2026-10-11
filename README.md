@@ -1,13 +1,13 @@
 README.md
-
+<<<<<<< HEAD
 # Althea's CV Profile -VErsion Two 
 
 # Curriculum Vitae-Personal Profile
-
+>>>>>>> feature/cv-purpose
 
 ## Student Information
 
-**Complete Name:** Althea Clariz Compoc
+**Complete Name:** Your Complete Name
 
 **Year Level:** 3rd Year
 
