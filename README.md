@@ -1,17 +1,13 @@
 README.md
- HEAD
- HEAD
-# Althea's CV Porfolio - Version one
 
 # Althea's CV Profile -VErsion Two 
- vscode-conflict-two
 
 # Curriculum Vitae-Personal Profile
- feature/cv-purpose
+
 
 ## Student Information
 
-**Complete Name:** Your Complete Name
+**Complete Name:** Althea Clariz Compoc
 
 **Year Level:** 3rd Year
 
